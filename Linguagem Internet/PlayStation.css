@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header h1{
+    color: #0070ff;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #0070ff;
+}
+
+/* BANNER */
+
+.banner{
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #0f0f0f, #001f4d);
+}
+
+.banner h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.banner p{
+    color: #cccccc;
+    font-size: 20px;
+}
+
+/* RANKING */
+
+.ranking{
+    padding: 50px;
+}
+
+.ranking h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0070ff;
+}
+
+/* TABELA */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th{
+    background-color: #0070ff;
+    color: white;
+    padding: 15px;
+}
+
+td{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+tr:hover{
+    background-color: #2a2a2a;
+    transition: 0.3s;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
